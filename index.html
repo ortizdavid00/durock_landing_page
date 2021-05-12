@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <title>Durock Mechanical Switches</title>
+  </head>
+  <body>
+    <section class="sec">
+      <header>
+        <a href="#"><img src="logo.jpg" class="logo" alt="Durock logo" /></a>
+        <div class="toggleMenu" onclick="menuToggle();"></div>
+        <ul class="navigation">
+          <li class="menuItems"><a href="#">Home</a></li>
+          <li class="menuItems"><a href="#">Products</a></li>
+          <li class="menuItems"><a href="#">What's New</a></li>
+          <li class="menuItems"><a href="#">Newsletter</a></li>
+          <li class="menuItems"><a href="#">Contact Us</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2 class="titleText">
+            Quality Keystrokes<br /><span>You Can Feel</span>
+          </h2>
+          <p class="infoText">
+            Self-lubricating Polyoxymethylene (POM) switch housings.
+          </p>
+          <a href="#">View All Products</a>
+        </div>
+        <div class="imgBox">
+          <img
+            src="switches.png"
+            class="t1"
+            alt="Grey and turquoise mechanical switch"
+          />
+        </div>
+      </div>
+      <ul class="icons">
+        <li>
+          <img
+            src="t1.png"
+            alt="Grey and turquoise mechanical switch"
+            onclick="imgSlider('t1.png');changeBgColor('#40E0D0');changeTextColor('#111111');changeInfoColor('#111111');changeMenuColor('#111111')"
+          />
+        </li>
+        <li>
+          <img
+            src="alpaca.png"
+            alt="Black and pink mechanical switch"
+            onclick="imgSlider('alpaca.png');changeBgColor('#FFB6C1');changeTextColor('#111111');changeInfoColor('#111111');changeMenuColor('#111111')"
+          />
+        </li>
+        <li>
+          <img
+            src="oreo.png"
+            alt="Black and white mechanical switch"
+            onclick="imgSlider('oreo.png');changeBgColor('#111111');changeTextColor('#FFFFFF');changeInfoColor('#FFFFFF');changeMenuColor('#FFFFFF')"
+          />
+        </li>
+      </ul>
+      <ul class="socials">
+        <li>
+          <a href="#"><img src="facebook.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="twitter.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="instagram.png" /></a>
+        </li>
+      </ul>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
